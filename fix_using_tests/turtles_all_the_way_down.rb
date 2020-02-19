@@ -10,6 +10,9 @@ end
 
 def turtle_traits(turtles)
   arr = []
-  turtles.map {|arr << turtle[:traits]|}
-  
+  turtles.map do |turtle|
+    turtle[:traits].each do |trait|
+      arr << trait
+    end
+  end
 end
