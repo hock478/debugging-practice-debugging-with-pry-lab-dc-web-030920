@@ -11,14 +11,13 @@ end
 
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
+     return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+     return "HAM HAM HAM IN MY TUMMY"
   end
 end
 
 def runner
   prompt_user
-  binding.pry
   selection(get_user_input)
 end
