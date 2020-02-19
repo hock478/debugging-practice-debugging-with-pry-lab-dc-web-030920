@@ -19,6 +19,5 @@ end
 def engage
   date = generate_star_date
   state_log(date)
-  binding.pry
   greet_crew(crew)
 end
